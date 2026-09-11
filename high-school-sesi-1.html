@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>UOB My Digital Space — High School Sesi 1</title>
+  <title>Informatika — High School Sesi 1</title>
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐍</text></svg>">
   <style>
@@ -1209,7 +1209,7 @@
   <div class="main-container" id="mainContent" style="display:none;">
     <div class="slides-panel">
       <div class="slide-header">
-        <h1>UOB My Digital Space — High School</h1>
+        <h1>Informatika — High School</h1>
         <p>Sesi 1 · Kwitansi Digital</p><span class="header-badge">Python · Google Colab</span>
       </div>
       <div class="slide-content">
@@ -1297,7 +1297,7 @@
           <p class="lead">Materi sesi dan tes ada di menu berbeda. Mulai dari membuka sesi terlebih dahulu.</p>
           <div class="scratch-map-wrap lms-map-wrap"><img
               src="https://uob-1328237036.cos.ap-singapore.myqcloud.com//file-uploader/images/6a973bfb-a09a-42af-a4ea-a4db56b12f56.png"
-              alt="Tampilan LMS UOB My Digital Space"><button class="hotspot" style="left:10.5%;top:39%;"
+              alt="Tampilan LMS Informatika"><button class="hotspot" style="left:10.5%;top:39%;"
               onclick="showLmsStep(1,this)">1</button><button class="session-card-hotspot"
               onclick="showLmsStep(2,this)"><span>2</span></button></div>
           <p class="scratch-caption">Klik angka 1, lalu pilih kartu sesi bernomor 2.</p>
@@ -1433,7 +1433,7 @@
               <div class="editor-label">PYTHON EDITOR</div>
               <div class="editor-live">LIVE OUTPUT</div>
             </div>
-            <textarea id="py1" spellcheck="false">print(&quot;Selamat datang di UOB My Digital Space!&quot;)
+            <textarea id="py1" spellcheck="false">print(&quot;Selamat datang di Informatika!&quot;)
 print(&quot;Hari ini kita belajar Python.&quot;)</textarea>
             <div class="editor-toolbar"><button class="run-code-btn" onclick="runPyEditor('py1')">Run code</button><span
                 class="editor-toolbar-note">Edit kode dan lihat outputnya berubah otomatis.</span></div>
@@ -2439,7 +2439,7 @@ print(f&quot;Total: {harga_total}&quot;)</textarea>
     </div>
   </div>
   <script>
-    const ACCESS_CODE = 'RGMDSHS26'; let currentSlide = 1; const totalSlides = document.querySelectorAll('.slide').length; document.getElementById('totalSlides').textContent = totalSlides;
+    const ACCESS_CODE = 'BISMILLAH26'; let currentSlide = 1; const totalSlides = document.querySelectorAll('.slide').length; document.getElementById('totalSlides').textContent = totalSlides;
     window.addEventListener('load', () => { setTimeout(() => document.querySelector('.access-popup').classList.add('show'), 50); const input = document.getElementById('accessInput'); input.focus(); input.addEventListener('input', e => { e.target.value = e.target.value.toUpperCase(); }); input.addEventListener('keydown', e => { if (e.key === 'Enter') checkAccessCode(); }); });
     function checkAccessCode() { const input = document.getElementById('accessInput'); const error = document.getElementById('accessError'); if (input.value.trim().toUpperCase() === ACCESS_CODE) { document.getElementById('accessPopup').style.display = 'none'; document.getElementById('mainContent').style.display = 'flex'; updateSlide(); } else { error.classList.add('show'); input.value = ''; input.focus(); } }
     function changeSlide(direction) { const next = currentSlide + direction; if (next < 1 || next > totalSlides) return; currentSlide = next; updateSlide(); }
